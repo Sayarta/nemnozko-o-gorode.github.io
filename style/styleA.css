@@ -1,0 +1,170 @@
+body{
+    margin-bottom: 5px; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: #47484BFF;
+    height: 110px;
+    position: fixed;
+    width:  1500px;
+    margin-top: -40px;
+    padding: 0px
+}
+
+.razdel{
+    display: inline-flex;
+    
+    padding: 10px;
+    margin: 10px;
+    
+    color: white;
+    
+    font-family: Comic Sans MS;
+    
+    transition: 1s;
+
+    
+        
+        
+}
+#LText{
+    display: inline-flex;
+    
+    font-family: fantasy;
+    font-size: 38px;
+    
+    padding: 10px;
+    
+    letter-spacing: 1px;
+    
+    color: limegreen
+}
+
+a{
+    text-decoration: none
+}
+
+}
+
+h1{
+    font-family: fantasy;
+    
+}
+
+
+input{
+    padding: 10px;
+    margin: 5px;
+    
+    border-radius: 30px;
+    
+    position: statics
+    
+}
+
+.razdel:hover{
+    color: black;
+    font-size: 23px;
+    transition: 1s;
+    
+    margin: 0px;
+    padding: 0px
+}
+
+.logo{
+    width: 80px;
+    height: 100px ;
+}
+
+.don{
+    display: inline-flex
+}
+
+img{
+    padding: 10px
+}
+
+.text{
+    font-family: fantasy;
+    font-size: 20px
+}
+
+#historyT{
+    border: 4px;
+    border-color: red;
+    background-color: gray;
+    
+    height: 600px
+}
+
+.header2{
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+#f{
+    margin: -1px
+}
+
+
+#history{
+    font-family: fantasy;
+    font-size: 20px;
+    margin: 10px
+}
+
+.container_slider_css {
+  margin: 50px auto;
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo_slider_css {
+  position: absolute;
+  animation: round 16s infinite;
+  opacity: 0;
+  width: 100%;
+  height: 100%
+}
+
+@keyframes round { /*Слайды на главной*/
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+
+img:nth-child(1) {
+  animation-delay: 8s;
+}
+
+img:nth-child(2) {
+  animation-delay: 4s;
+}
+
+img:nth-child(3) {
+  animation-delay: 0s;
+}
+
+@media(min-width:0px) and (max-width:320px) {
+    /* совсем маленькие экраны андроидов */
+    .container_slider_css{
+          width: 80%;
+          height: 190px;
+    }
+}
+ 
+@media(min-width:321px) and (max-width:480px) {
+    /* популярные разрешения смартфонов уже более позднего поколения андроид */
+    .container_slider_css{
+          width: 80%;
+          height: 190px;
+     }
+}
